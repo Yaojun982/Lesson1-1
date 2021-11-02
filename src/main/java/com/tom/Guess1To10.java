@@ -10,8 +10,8 @@ public class Guess1To10 {
         System.out.println(secret);
         System.out.println("Please enter number:");
         Scanner scanner = new Scanner(System.in);
-        boolean playgame = true;
-        while (playgame) {
+        for (int i = 0; i < 3; i= i+1)        //單次迴圈
+         {
             String s = scanner.next();
             System.out.println("user:" + s);
             int num = Integer.parseInt(s);
@@ -22,7 +22,6 @@ public class Guess1To10 {
                     System.out.println("Bigger");
                 } else {
                     System.out.println("Ok");
-                    playgame = false;
                 }
             }
         }
