@@ -10,7 +10,7 @@ public class Guess1To10 {
         System.out.println(secret);
         System.out.println("Please enter number:");
         Scanner scanner = new Scanner(System.in);
-        for (int i = 0; i < 3; i= i+1)        //單次迴圈
+        for (int i = 0; i < 7; i= i+1)        //單次迴圈
          {
             String s = scanner.next();
             System.out.println("user:" + s);
